@@ -1,7 +1,5 @@
 # Module 5 - Cloud & Infrastructure as a Service (IaaS)
 
-> Part of the [TechWorld with Nana DevOps Bootcamp](https://www.techworld-with-nana.com/devops-bootcamp)
-
 ## What I built and did
 
 ### 1. Created a DigitalOcean Droplet
