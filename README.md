@@ -6,9 +6,15 @@
 
 Provisioned a Linux Ubuntu virtual machine (Droplet) on DigitalOcean to use as a remote server.
 
+<img width="1649" height="626" alt="image" src="https://github.com/user-attachments/assets/dd77dbbf-c73c-4e3b-938b-77b5846790cc" />
+
+
 ### 2. Configured a firewall
 
 Set up a firewall on the Droplet with inbound and outbound rules. By default DigitalOcean servers are not protected, so I explicitly opened the ports needed - SSH on port 22, and a custom TCP rule on port 7071 to expose the app.
+
+<img width="1634" height="560" alt="image" src="https://github.com/user-attachments/assets/180049cb-33d7-4df3-a778-c48312a3108c" />
+
 
 ### 3. Set up SSH access
 
@@ -50,7 +56,13 @@ java -jar java-react-example-master.jar
 java -jar java-react-example-master.jar &
 ```
 
+<img width="1899" height="860" alt="image" src="https://github.com/user-attachments/assets/19455a25-91c7-4889-86c1-abff34f97421" />
+
+
 Then accessed it in the browser at `68.183.35.218:7071`.
+
+<img width="1889" height="965" alt="image" src="https://github.com/user-attachments/assets/04d8b7b7-4155-41cb-aa07-eca382e2ab16" />
+
 
 ### 8. Checked the running process and active connections
 
@@ -61,6 +73,9 @@ ps aux | grep java
 # List servers with active connections
 netstat -lpnt
 ```
+
+<img width="1461" height="85" alt="image" src="https://github.com/user-attachments/assets/caf0fbe4-ae85-4b1e-8b30-aebfd1ab7092" />
+
 
 ### 9. Created a non-root user for security
 
