@@ -1,4 +1,4 @@
-# Module 5 - Cloud & Infrastructure as a Service (IaaS)
+# Cloud & Infrastructure as a Service (IaaS)
 
 ## What I built and did
 
